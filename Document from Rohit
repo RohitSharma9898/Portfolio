@@ -1,43 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- @import url('https://fontsgooglepis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap')-->
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Portfolio Website</title>
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .skills {
+            max-width: 600px;
+            margin: auto;
+        }
+        .skills h2 {
+            text-align: center;
+            color: #333;
+        }
+        .skill-item {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .skill-item h3 {
+            margin: 0;
+            color: #555;
+        }
+        .skill-item p {
+            margin: 5px 0 0;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Portfolio</a>
-        
-        <nav>
-            <a href="#" class="active"> Home </a>
-            <a href="skills.html">Skills</a>
-            <a href="education.html">Education</a>
-            <a href="experience.html">Experience</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="rohitimg.jpg" alt="">
+    <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-item">
+            <h3>HTML</h3>
+            <p>Proficient in creating structured and semantic web pages.</p>
         </div>
-        <div class="home-content">
-            <h1>Hi,It's <span>Rohit Sharma</span></h1>
-            <h3 class="typing-text">I'm a<span></span></h3>
-            <p> I'm a passionate and driven individual with a strong dedication to [Cyber Security and Web Technology]. My journey has been shaped by my curiosity and a commitment to continuous growth, allowing me to embrace challenges and turn them into opportunities. Whether it's collaborating with a team, exploring innovative ideas, or contributing to impactful projects, I bring enthusiasm, creativity, and positivity to everything I do. I'm excited to connect, share experiences, and make meaningful contributions along the way!"
-                
-                Feel free to tweak it to make it your own! Let me know if you'd like me to help tailor it further to your personality or specific purpose.</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-            </div>
-            <!--<a href="#" class="btn">Hire me</a>-->
+        <div class="skill-item">
+            <h3>CSS</h3>
+            <p>Experienced in designing responsive and visually appealing layouts.</p>
         </div>
-    </section>
-    
+        <div class="skill-item">
+            <h3>JavaScript</h3>
+            <p>Skilled in adding interactivity and dynamic content to web pages.</p>
+        </div>
+        <div class="skill-item">
+            <h3>Python</h3>
+            <p>Knowledgeable in scripting and automation, as well as web development using frameworks like Django.</p>
+        </div>
+    </div>
 </body>
 </html>
+
+
